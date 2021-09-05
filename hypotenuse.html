@@ -5,15 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculate Hypotenuse</h1>
-    <label for="">a = </label>
-    <input class="side-input" type="number">
-    <label for="">b =</label>
-    <input class="side-input" type="number">
-    <button id = calculate-hyp>Calculate Hypotenuse</button>
-    <p id="output"></p>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link" href="index.html">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link link-active" href="hypotenuse.html">Hypotenuse Calculator</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="area.html">Area Calculator</a>
+        </li>
+    </ul>
+    </nav>
+
+    <div class="div-container">
+        <h1 class="heading">Calculate Hypotenuse</h1>
+        <p class="discription">Here we Find out the lenghth of hypotenuse of right angle triangle by using lenght of  other two sides.</p>
+        <label for="">a = </label>
+        <input class="side-input" type="number" placeholder="Enter the Lenghth of first side">
+        <label for="">b =</label>
+        <input class="side-input" type="number" placeholder="Enter the Lenghth of Second side">
+        <button id = calculate-hyp>Calculate Hypotenuse</button>
+        <p id="output"></p>
+    </div>
     <script src="hypotenuse.js"></script>
 </body>
 </html>

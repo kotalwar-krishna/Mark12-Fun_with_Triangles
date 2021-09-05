@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Find Out Area</h1>
-    <p>Here we find out the area of triangle using base and height.</p>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link" href="index.html">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="hypotenuse.html">Hypotenuse Calculator</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link link-active" href="area.html">Area Calculator</a>
+        </li>
+    </ul>
+    </nav>
+
+  <div class="div-container">
+    <h1 class="heading">Find Out Area</h1>
+    <p class="discription">Here we find out the area of triangle using base and height.</p>
     <label for="base">Base</label>
     <input type="number" id="base" placeholder="Enter the length of Base">
     <label for="height">Height</label>
     <input type="number" id="height" placeholder="Enter the length of Height">
     <button id="find-area">Calculate the Area</button>
     <p id="output"></p>
+</div>
 
     <script src="area.js"></script>
 </body>
